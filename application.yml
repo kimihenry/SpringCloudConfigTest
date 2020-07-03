@@ -1,0 +1,7 @@
+my:
+  message : hi kimi from cloud config server
+server:
+  port : 1100
+
+spring.profiles.active : dev
+
