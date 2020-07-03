@@ -1,7 +1,11 @@
 my:
-  message : hi kimi from cloud config server
+  message : hi kimi henry dev
+  context : resorse
+  learn : Spring boot
 server:
-  port : 1100
+  port : 1101
 
-spring.profiles.active : dev
+map:
+  properties: "{Name:'Henry',Age:26,Nationaity:'Indian'}"
 
+spring.cloud.config.uri: http://localhost:9999
