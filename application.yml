@@ -1,5 +1,5 @@
 my:
-  message : hi kimi henry dev
+  message : hi kimi henry dev coming from config server
   context : resorse
   learn : Spring boot
 server:
